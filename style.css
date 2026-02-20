@@ -119,6 +119,7 @@ footer {
     color: white;
 }
 
+/* Spec list for bullets */
 .spec-list {
     list-style: none;
     padding: 0;
@@ -127,16 +128,29 @@ footer {
 }
 
 .spec-list li {
-    display: grid;
-    grid-template-columns: max-content 25px 1fr;
-    align-items: center;
-    padding: 4px 0;
+    display: table;
+    width: 100%;
+    padding: 2px 0;
+}
+
+.spec-list .label,
+.spec-list .colon,
+.spec-list .value {
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .spec-list .label {
     font-weight: 600;
+    padding-right: 8px; /* space before colon */
 }
 
 .spec-list .colon {
+    width: 15px;       /* fixed width for all colons */
     text-align: center;
 }
+
+.spec-list .value {
+    padding-left: 8px;
+}
+/* done */
