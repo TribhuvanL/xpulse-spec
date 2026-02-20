@@ -96,6 +96,10 @@ section {
     text-align: left;
 }
 
+.features ul li {
+    padding: 2px 0;
+}
+
 .contact {
     text-align: center;
 }
