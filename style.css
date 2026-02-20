@@ -17,6 +17,10 @@ h1 {
     font-size: 40px;
 }
 
+h2 {
+    text-align: center;
+}
+
 /* Slider */
 .slider-section {
     text-align: center;
