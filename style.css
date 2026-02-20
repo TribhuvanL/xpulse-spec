@@ -119,25 +119,24 @@ footer {
     color: white;
 }
 
-
 .spec-list {
     list-style: none;
+    padding: 0;
     max-width: 600px;
     margin: auto;
-    padding: 0;
 }
 
 .spec-list li {
     display: grid;
-    grid-template-columns: max-content 200px 1fr;
-    padding: 8px 0;
-}
-
-.spec-list .value::before {
-    content: ":";
-    margin-left: 5px;
+    grid-template-columns: max-content 25px 1fr;
+    align-items: center;
+    padding: 4px 0;
 }
 
 .spec-list .label {
     font-weight: 600;
+}
+
+.spec-list .colon {
+    text-align: center;
 }
