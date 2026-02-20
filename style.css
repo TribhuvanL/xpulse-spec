@@ -129,7 +129,7 @@ footer {
 
 .spec-list li {
     display: grid;
-    grid-template-columns: max-content auto 1fr;
+    grid-template-columns: max-content 30px 1fr;
     column-gap: 8px;
 }
 
@@ -139,5 +139,5 @@ footer {
 
 .spec-list .colon {
     text-align: center;
-    font-weight: bold;
+    font-weight: normal;
 }
