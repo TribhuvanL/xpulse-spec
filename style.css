@@ -128,29 +128,23 @@ footer {
 }
 
 .spec-list li {
-    display: table;
-    width: 100%;
+    display: grid;
+    grid-template-columns: max-content auto 1fr; /* label : value */
+    align-items: center;
+    gap: 8px;           /* spacing between columns */
     padding: 2px 0;
-}
-
-.spec-list .label,
-.spec-list .colon,
-.spec-list .value {
-    display: table-cell;
-    vertical-align: middle;
 }
 
 .spec-list .label {
     font-weight: 600;
-    padding-right: 8px; /* space before colon */
+    text-align: right;   /* aligns text to right edge for neat colon placement */
 }
 
 .spec-list .colon {
-    width: 15px;       /* fixed width for all colons */
-    text-align: center;
+    text-align: center;  /* colon perfectly centered */
 }
 
 .spec-list .value {
-    padding-left: 8px;
+    text-align: left;    /* all values start at same line */
 }
 /* done */
