@@ -86,7 +86,7 @@ section {
 .summary p {
     max-width: 800px;
     margin: auto;
-    text-align: justify;
+    text-align: left;
     font-size: 18px;
 }
 
