@@ -118,3 +118,26 @@ footer {
     padding: 20px;
     color: white;
 }
+
+
+.spec-list {
+    list-style: none;
+    max-width: 600px;
+    margin: auto;
+    padding: 0;
+}
+
+.spec-list li {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    padding: 8px 0;
+}
+
+.spec-list .label::after {
+    content: ":";
+    margin-left: 5px;
+}
+
+.spec-list .label {
+    font-weight: 600;
+}
