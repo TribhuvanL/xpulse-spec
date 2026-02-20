@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff5e6;
+    color: #333;
+}
+
+header {
+    background-color: #ff9933;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+/* Slider */
+.slider-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.slider {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slides img {
+    width: 100%;
+    display: none;
+    border-radius: 10px;
+}
+
+.slide.active {
+    display: block;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255,153,51,0.8);
+    border: none;
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    border-radius: 50%;
+}
+
+.left { left: 10px; }
+.right { right: 10px; }
+
+.dots {
+    margin-top: 15px;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    background-color: #ddd;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #ff9933;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+}
+
+.summary p {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+.specs ul, .features ul {
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+}
+
+.contact {
+    text-align: center;
+}
+
+.icons i {
+    font-size: 30px;
+    margin: 15px;
+    color: #ff9933;
+    transition: 0.3s;
+}
+
+.icons i:hover {
+    color: #cc7a00;
+    transform: scale(1.2);
+}
+
+footer {
+    background-color: #ff9933;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
