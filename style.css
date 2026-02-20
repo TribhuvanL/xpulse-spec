@@ -128,23 +128,25 @@ footer {
 }
 
 .spec-list li {
-    display: grid;
-    grid-template-columns: max-content auto 1fr; /* label : value */
+    display: flex;
     align-items: center;
-    gap: 8px;           /* spacing between columns */
-    padding: 2px 0;
+    padding: 2px 0;       /* row spacing */
 }
 
 .spec-list .label {
     font-weight: 600;
-    text-align: right;   /* aligns text to right edge for neat colon placement */
+    width: 180px;          /* fixed width for all labels */
+    text-align: right;
+    padding-right: 8px;    /* space before colon */
 }
 
 .spec-list .colon {
-    text-align: center;  /* colon perfectly centered */
+    width: 15px;           /* fixed width for colon */
+    text-align: center;
 }
 
 .spec-list .value {
-    text-align: left;    /* all values start at same line */
+    text-align: left;
+    flex: 1;               /* value fills remaining space */
 }
 /* done */
