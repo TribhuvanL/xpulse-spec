@@ -136,7 +136,7 @@ footer {
 .spec-list .label {
     font-weight: 600;
     width: 180px;          /* fixed width for all labels */
-    text-align: right;
+    text-align: left;
     padding-right: 8px;    /* space before colon */
 }
 
