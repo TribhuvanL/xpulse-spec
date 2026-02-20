@@ -1,12 +1,12 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
-    background-color: #fff5e6;
-    color: #333;
+    background-color: #000;
+    color: #fff;
 }
 
 header {
-    background-color: #ff9933;
+    background-color: #111;
     padding: 30px;
     text-align: center;
     color: white;
@@ -109,7 +109,7 @@ section {
 }
 
 footer {
-    background-color: #ff9933;
+    background-color: #111;
     text-align: center;
     padding: 20px;
     color: white;
